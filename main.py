@@ -117,7 +117,7 @@ def main(doc):
     return grab_info()
 
 # @app.route("/")
-@app.route("/test", methods=['POST'])
+@app.route('/test', methods=['POST'])
 def test_route():
     return 'kill'
 
